@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Vogue Vibes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1 class="animate__animated animate__fadeInDown">Contattaci</h1>
+        <p class="lead animate__animated animate__fadeInUp">Siamo qui per aiutarti.</p>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="collezione.html">Collezione</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="offerte.html">Offerte</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenuto principale -->
+    <main class="container my-5">
+        <div class="row">
+            <!-- Modulo di Contatto -->
+            <div class="col-lg-6">
+                <h2 class="mb-4">Scrivici</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Il tuo nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="La tua email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Scrivi qui il tuo messaggio..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-lg">Invia</button>
+                </form>
+            </div>
+
+            <!-- Informazioni di Contatto -->
+            <div class="col-lg-6 text-center">
+                <h2 class="mb-4">Dove Trovarci</h2>
+                <p><strong>Indirizzo:</strong> Via delle Mode, 123, Milano, Italia</p>
+                <p><strong>Email:</strong> support@voguevibes.com</p>
+                <p><strong>Telefono:</strong> +39 123 456 7890</p>
+                <div class="mt-4">
+                    <h3>Seguici sui Social:</h3>
+                    <a href="#" class="btn btn-outline-dark mx-2">Instagram</a>
+                    <a href="#" class="btn btn-outline-dark mx-2">Facebook</a>
+                    <a href="#" class="btn btn-outline-dark mx-2">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Vogue Vibes | <a href="privacy.html" class="text-white">Privacy Policy</a> | <a href="terms.html" class="text-white">Termini e Condizioni</a></p>
+        <p>Seguici: 
+            <a href="#" class="text-white">Instagram</a> | 
+            <a href="#" class="text-white">Facebook</a> | 
+            <a href="#" class="text-white">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
